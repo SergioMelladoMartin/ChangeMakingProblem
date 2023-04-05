@@ -9,9 +9,9 @@ Type make to build the program.
 To run the program, type ./main <Amount> <Flags>.
 The <Amount> parameter specifies the target amount of money, and the <Flags> parameter is optional. The following flags are available:
 
--b: Allow the program to use tickets, not only coins.
--e: Use an efficient algorithm.
--c: Print the results in a more readable format.
+- -b: Allow the program to use tickets, not only coins.
+- -e: Use an efficient algorithm.
+- -c: Print the results in a more readable format.
 
 For example, to solve the change coins problem for an amount of 10.50 euros, using tickets, using the efficient algorithm and with a readable output, you would type ./main 10.50 -b -e -c. This would produce the following output:
 
